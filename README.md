@@ -75,6 +75,8 @@ Cursor (`.cursor/mcp.json`):
 
 VS Code: run "MCP: Add Server", choose HTTP and paste the endpoint.
 
+This repository is also a Cursor plugin (`plugins/fair-value-calculator`), which registers the same endpoint.
+
 Step-by-step guides for Claude, ChatGPT, Claude Code, Cursor, VS Code and Codex:
 <https://www.fairvalue-calculator.com/integrations>.
 

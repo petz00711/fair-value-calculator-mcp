@@ -1,0 +1,17 @@
+{
+  "name": "fair-value-calculator",
+  "displayName": "Fair Value Calculator",
+  "version": "1.0.0",
+  "description": "Look up fair value, valuation status and quality score for 35,000+ stocks, compare and screen them, and manage a watchlist.",
+  "author": {
+    "name": "Fair Value Calculator",
+    "email": "office@fairvalue-calculator.com"
+  },
+  "homepage": "https://www.fairvalue-calculator.com/mcp",
+  "repository": "https://github.com/petz00711/fair-value-calculator-mcp",
+  "license": "CC-BY-4.0",
+  "logo": "assets/logo.png",
+  "keywords": ["finance", "stocks", "valuation", "fair-value", "screener", "watchlist", "mcp"],
+  "category": "integrations",
+  "tags": ["finance", "stocks", "valuation", "mcp"]
+}
