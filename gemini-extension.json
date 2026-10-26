@@ -1,0 +1,11 @@
+{
+  "name": "fair-value-calculator",
+  "version": "5.2.1",
+  "description": "Fair value, valuation status and quality score for 35,000+ stocks, plus your watchlist and alerts. Hosted MCP server, sign in with a free account.",
+  "mcpServers": {
+    "fair-value-calculator": {
+      "httpUrl": "https://www.fairvalue-calculator.com/mcp",
+      "timeout": 60000
+    }
+  }
+}
