@@ -77,6 +77,12 @@ VS Code: run "MCP: Add Server", choose HTTP and paste the endpoint.
 
 This repository is also a Cursor plugin (`plugins/fair-value-calculator`), which registers the same endpoint.
 
+Gemini CLI (this repository is also a Gemini CLI extension, `gemini-extension.json`):
+
+```
+gemini extensions install https://github.com/petz00711/fair-value-calculator-mcp
+```
+
 Step-by-step guides for Claude, ChatGPT, Claude Code, Cursor, VS Code and Codex:
 <https://www.fairvalue-calculator.com/integrations>.
 
