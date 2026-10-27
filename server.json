@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.fairvalue-calculator/fair-value",
   "title": "Fair Value Calculator",
-  "description": "Fair value, valuation status and quality score for 35,000+ stocks, plus your watchlist and alerts.",
-  "version": "5.2.1",
+  "description": "Fair value, valuation status and quality score for 40,000+ stocks, plus your watchlist and alerts.",
+  "version": "5.2.2",
   "websiteUrl": "https://www.fairvalue-calculator.com/mcp",
   "repository": {
     "url": "https://github.com/petz00711/fair-value-calculator-mcp",
