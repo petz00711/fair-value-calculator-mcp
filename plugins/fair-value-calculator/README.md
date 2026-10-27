@@ -6,7 +6,8 @@ Nothing is installed locally: the plugin only registers the endpoint
 a free account is enough.
 
 Tools: `resolve_stock`, `get_stock_preview`, `get_stock_verdict`, `compare_stocks`, `screen_stocks`,
-`get_watchlist`, `add_to_watchlist`, `remove_from_watchlist`, `set_watchlist_alerts`.
+`get_watchlist`, `add_to_watchlist`, `remove_from_watchlist`, `set_watchlist_alerts`,
+`suggest_watchlist_stocks`.
 What each one does, limits of the free tier and example questions are in the
 [main README](../../README.md).
 
