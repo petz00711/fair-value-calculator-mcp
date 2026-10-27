@@ -40,11 +40,12 @@ support a figure, the server returns the verdict without a number instead of a w
 | `add_to_watchlist` | Adds a stock to the watchlist. |
 | `remove_from_watchlist` | Removes a stock from the watchlist. |
 | `set_watchlist_alerts` | Switches the e-mail alerts of the account's watchlist on or off (Pro). |
+| `suggest_watchlist_stocks` | Suggests up to eight stocks that fit the saved watchlist: priced below fair value, high quality score, not held yet, ranked with their correlation to the stocks already on it; can also suggest a replacement of similar size for one stock. Changes nothing (Pro, not offered in ChatGPT yet). |
 
 The three tools that change the watchlist or alerts ask for separate consent during sign-in.
 
 Free accounts get the verdict tools with monthly limits; exact fair values for all stocks,
-comparisons of up to five stocks and alerts are part of Pro. Current limits and prices:
+comparisons of up to five stocks, alerts and watchlist suggestions are part of Pro. Current limits and prices:
 <https://www.fairvalue-calculator.com/pro>.
 
 ## Connect
