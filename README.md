@@ -20,7 +20,7 @@ not part of this repository.
 
 ## What it covers
 
-Fair value per share, valuation status and a quality score for 35,000+ listed stocks worldwide.
+Fair value per share, valuation status and a quality score for 40,000+ listed stocks worldwide.
 The fair value is blended from several valuation models on reported fundamentals and is
 recalculated daily. Method and limits: <https://www.fairvalue-calculator.com/methodology>.
 
