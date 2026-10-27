@@ -5,14 +5,14 @@
     "email": "office@fairvalue-calculator.com"
   },
   "metadata": {
-    "description": "Hosted MCP server of Fair Value Calculator: fair value, valuation status and quality score for 35,000+ stocks.",
+    "description": "Hosted MCP server of Fair Value Calculator: fair value, valuation status and quality score for 40,000+ stocks.",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "fair-value-calculator",
       "source": "./plugins/fair-value-calculator",
-      "description": "Look up fair value, valuation status and quality score for 35,000+ stocks, compare and screen them, and manage a watchlist."
+      "description": "Look up fair value, valuation status and quality score for 40,000+ stocks, compare and screen them, and manage a watchlist."
     }
   ]
 }
