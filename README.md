@@ -33,14 +33,14 @@ support a figure, the server returns the verdict without a number instead of a w
 |---|---|
 | `resolve_stock` | Turns a name, ticker or ISIN into the matching listing, up to five matches. |
 | `get_stock_preview` | Verdict, distance to fair value in bands and quality score for one stock, without the exact number. |
-| `get_stock_verdict` | Fair value per share with currency, distance to the price, verdict, quality score and data level, with a link to the full analysis. |
+| `get_stock_verdict` | Fair value per share with currency, distance to the price, verdict, quality score, data level, uptrend (price one month ago above twelve months ago) and the three buy rules of the strategy (fair value upside of at least 30%, quality score of at least 50, uptrend), with a link to the full analysis. |
 | `compare_stocks` | Several stocks side by side with the same values. |
-| `screen_stocks` | Stocks matching criteria: minimum distance to fair value, minimum quality, sector, region. |
-| `get_watchlist` | Reads the watchlist of the signed-in account. |
+| `screen_stocks` | Stocks matching criteria: minimum distance to fair value, minimum quality, sector, region, uptrend only, or exactly the stocks that meet all three buy rules of the strategy. |
+| `get_watchlist` | Reads the watchlist of the signed-in account, each stock with its verdict, uptrend and the three buy rules; for Pro also On track or Review (price at the optimistic fair value, quality dropped clearly, or held for five years). |
 | `add_to_watchlist` | Adds a stock to the watchlist. |
 | `remove_from_watchlist` | Removes a stock from the watchlist. |
-| `set_watchlist_alerts` | Switches the e-mail alerts of the account's watchlist on or off (Pro). |
-| `suggest_watchlist_stocks` | Suggests up to eight stocks that fit the saved watchlist: priced below fair value, high quality score, not held yet, ranked with their correlation to the stocks already on it; can also suggest a replacement of similar size for one stock. Changes nothing (Pro, not offered in ChatGPT yet). |
+| `set_watchlist_alerts` | Switches the e-mail alerts of the account's watchlist on or off (Pro): an e-mail when a stock changes from On track to Review. |
+| `suggest_watchlist_stocks` | Suggests up to eight stocks that fit the saved watchlist: priced below fair value, high quality score, not held yet, stocks with all three buy rules first, ranked with their correlation to the stocks already on it; can also suggest a replacement of similar size for one stock. Changes nothing (Pro, not offered in ChatGPT yet). |
 
 The three tools that change the watchlist or alerts ask for separate consent during sign-in.
 
