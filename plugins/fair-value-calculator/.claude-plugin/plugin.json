@@ -1,6 +1,6 @@
 {
   "name": "fair-value-calculator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Look up fair value, quality score, uptrend and the three buy rules for 40,000+ stocks, compare and screen them, and manage a watchlist.",
   "author": {
     "name": "Fair Value Calculator",
@@ -10,6 +10,7 @@
   "homepage": "https://www.fairvalue-calculator.com/mcp",
   "repository": "https://github.com/petz00711/fair-value-calculator-mcp",
   "license": "CC-BY-4.0",
+  "privacyPolicyUrl": "https://www.fairvalue-calculator.com/privacy/",
   "keywords": ["finance", "stocks", "valuation", "fair-value", "screener", "watchlist", "mcp"],
   "mcpServers": "./mcp.json"
 }
