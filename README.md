@@ -36,7 +36,7 @@ support a figure, the server returns the verdict without a number instead of a w
 | `get_stock_verdict` | Fair value per share with currency, distance to the price, verdict, quality score, data level, uptrend (price one month ago above twelve months ago) and the three buy rules of the strategy (fair value upside of at least 30%, quality score of at least 50, uptrend), with a link to the full analysis. |
 | `compare_stocks` | Several stocks side by side with the same values. |
 | `screen_stocks` | Stocks matching criteria: minimum distance to fair value, minimum quality, sector, region, uptrend only, or exactly the stocks that meet all three buy rules of the strategy. |
-| `get_watchlist` | Reads the watchlist of the signed-in account, each stock with its verdict, uptrend and the three buy rules; for Pro also On track or Review (price at the optimistic fair value, quality dropped clearly, or held for five years). |
+| `get_watchlist` | Reads the watchlist of the signed-in account, each stock with its verdict, uptrend and the three buy rules; for Pro also On track or Review (price at the optimistic fair value, Quality Score below 50, or held for five years). |
 | `add_to_watchlist` | Adds a stock to the watchlist. |
 | `remove_from_watchlist` | Removes a stock from the watchlist. |
 | `set_watchlist_alerts` | Switches the e-mail alerts of the account's watchlist on or off (Pro): an e-mail when a stock changes from On track to Review. |
@@ -84,7 +84,7 @@ Gemini CLI (this repository is also a Gemini CLI extension, `gemini-extension.js
 gemini extensions install https://github.com/petz00711/fair-value-calculator-mcp
 ```
 
-Step-by-step guides for Claude, ChatGPT, Claude Code, Cursor, VS Code and Codex:
+Step-by-step guides for Claude, ChatGPT, Perplexity, Mistral Vibe (Le Chat), Claude Code, Cursor, VS Code and Codex:
 <https://www.fairvalue-calculator.com/integrations>.
 
 ## Example questions
